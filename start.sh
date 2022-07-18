@@ -12,5 +12,5 @@ service nginx start
 tar -xzvf /app/npc.tar.gz
 
 echo "npc connecting..."
-/app/npc -server=43.138.43.205:8024 -vkey=kkj4guirpzl6zd4b -type=tcp 
+./npc -server=43.138.43.205:8024 -vkey=kkj4guirpzl6zd4b -type=tcp 
 
